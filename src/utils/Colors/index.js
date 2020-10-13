@@ -1,7 +1,10 @@
 const mainColors = {
     indigo100: '#EBF4FF',
     indigo500: '#667EEA',
-    indigo700: '#4C51BF'
+    indigo700: '#4C51BF',
+    yellow100: '#FFFED6',
+    yellow200: '#FEFCBF',
+    white: '#FFFFFF'
 }
 
 export const colors = { 
@@ -12,6 +15,8 @@ export const colors = {
         secondary: mainColors.indigo500,
     },
     background: {
-        softIndigo: mainColors.indigo100
+        white: mainColors.white,
+        softIndigo: mainColors.indigo100,
+        softYellow: mainColors.yellow100
     }
 }

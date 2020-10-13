@@ -18,7 +18,7 @@ const BottomTab = () => {
             tabBarOptions={{
                 activeTintColor: colors.text.primary,
                 inactiveTintColor: colors.text.secondary,
-                activeBackgroundColor: colors.background.softIndigo,
+                activeBackgroundColor: colors.background.softYellow,
                 labelStyle: {
                     fontFamily: fonts.primary[500]
                 }
@@ -29,7 +29,7 @@ const BottomTab = () => {
                 shadow: false,
                 whenInactiveShow: 'icon-only',
                 shadow: true,
-                tabBarBackground:'#ffffff',
+                tabBarBackground: colors.background.white,
             }}
         >
             <Tab.Screen 
