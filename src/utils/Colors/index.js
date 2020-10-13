@@ -17,6 +17,6 @@ export const colors = {
     background: {
         white: mainColors.white,
         softIndigo: mainColors.indigo100,
-        softYellow: mainColors.yellow100
+        softYellow: mainColors.yellow200
     }
 }
