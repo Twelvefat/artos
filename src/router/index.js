@@ -21,6 +21,10 @@ const BottomTab = () => {
                 activeBackgroundColor: colors.background.softYellow,
                 labelStyle: {
                     fontFamily: fonts.primary[500]
+                },
+                tabStyle: {
+                    marginBottom:10,
+                    marginHorizontal:10,
                 }
             }}
             appearence={{
